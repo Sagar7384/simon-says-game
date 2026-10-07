@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5px;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 7px solid black;
+    border-radius: 20%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Update HTML classes: red, teal, yellow, blue */
+.red    { background-color: #FF6B6B; }
+.teal  { background-color: #4ECDC4; }
+.yellow { background-color: #FFE66D; }
+.blue   { background-color: #007bff; }
+
+/* Active flash animation state */
+.flash_btn,.user_flash {
+    box-shadow: 0 0 20px #590303;
+    opacity: 0.8;
+    background-color: white;
+}
+
+/* .user_flash{
+    background-color: chocolate;
+} */
